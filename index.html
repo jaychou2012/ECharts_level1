@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link type="text/css" rel="styleSheet" href="./css/index.css" />
+    <script src="./js/echarts_5.3.0.js"></script>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="title">
+        <h2>The Title Of Charts</h2>
+    </div>
+
+    <div>
+        <!-- <div class="avatar"></div> -->
+        <div class="inner"></div>
+        <!-- <div class="inner container"></div>
+        <div class="inner outter"></div> -->
+    </div>
+
+    <div class="bodyData">
+        <div class="zoneLeft">
+            <div class="dataZone1">
+                <div class="subTitle">
+                    Title Of Data1
+                </div>
+                <div class="dataDiv">
+                    <div class="dataItemDiv">
+                        <h2>
+                            210000
+                        </h2>
+                        <h3>
+                            The Number Of Data1
+                        </h3>
+                    </div>
+                    <div class="dataItemDiv">
+                        <h2>
+                            220000
+                        </h2>
+                        <h3>
+                            The Number Of Data2
+                        </h3>
+                    </div>
+                    <div class="dataItemDiv">
+                        <h2>
+                            230000
+                        </h2>
+                        <h3>
+                            The Number Of Data3
+                        </h3>
+                    </div>
+                </div>
+                <div>
+                    <div class="leftCorner">
+
+                    </div>
+                    <div class="rightCorner">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="dataZone2">
+                <div class="subTitle">
+                    Title Of Data2
+                </div>
+                <div class="dataTitle">
+                    <h5>Rank</h5>
+                    <h5>subTitle2</h5>
+                    <h5>subTitle3</h5>
+                    <h5>subTitle4</h5>
+                </div>
+                <ul>
+                    <li class="listItem bg1 activeBg1">
+                        <h5>1</h5>
+                        <h5>content2</h5>
+                        <h5>content3</h5>
+                        <h5>content4</h5>
+                    </li>
+                    <li class="listItem bg2 activeBg2">
+                        <h5>2</h5>
+                        <h5>content2</h5>
+                        <h5>content3</h5>
+                        <h5>content4</h5>
+                    </li>
+                    <li class="listItem bg1 activeBg3">
+                        <h5>3</h5>
+                        <h5>content2</h5>
+                        <h5>content3</h5>
+                        <h5>content4</h5>
+                    </li>
+                    <li class="listItem bg2">
+                        <h5>4</h5>
+                        <h5>content2</h5>
+                        <h5>content3</h5>
+                        <h5>content4</h5>
+                    </li>
+                    <li class="listItem bg1">
+                        <h5>5</h5>
+                        <h5>content2</h5>
+                        <h5>content3</h5>
+                        <h5>content4</h5>
+                    </li>
+                </ul>
+                <div>
+                    <div class="leftCorner">
+
+                    </div>
+                    <div class="rightCorner">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="zoneCenter">
+            <div class="zoneCenterDiv">
+                <div id="main" class="chartDiv"></div>
+                <div class="logo">
+                    <img src="https://www.jetbrains.com.cn/img/banners-home-page/annual-highlights-icon.svg">
+                </div>
+            </div>
+            <div class="dataZone1">
+                <div class="subTitle">
+                    Title Of Chart2
+                </div>
+                <div class="chart2Div" id="chart2"></div>
+                <div class="chart22Div" id="chart22"></div>
+            </div>
+        </div>
+
+        <div class="zoneRight">
+            <div class="dataZone2">
+                <div class="subTitle">
+                    Title Of Data3
+                </div>
+                <div class="dataTitle">
+                    <h5 class="dataTitile1">Name</h5>
+                    <h5 class="dataTitile2">Number</h5>
+                    <h5 class="dataTitile3">Date</h5>
+                </div>
+                <ul>
+                    <li class="listItem bg1 activeBg1">
+                        <h5 class="dataTitile1">The Title Of News</h5>
+                        <h5 class="dataTitile2">6</h5>
+                        <h5 class="dataTitile3">2022-02-10</h5>
+                    </li>
+                    <li class="listItem bg2 activeBg2">
+                        <h5 class="dataTitile1">The Title Of News</h5>
+                        <h5 class="dataTitile2">99</h5>
+                        <h5 class="dataTitile3">2022-02-10</h5>
+                    </li>
+                    <li class="listItem bg1 activeBg3">
+                        <h5 class="dataTitile1">The Title Of News</h5>
+                        <h5 class="dataTitile2">100</h5>
+                        <h5 class="dataTitile3">2022-02-10</h5>
+                    </li>
+                    <li class="listItem bg2">
+                        <h5 class="dataTitile1">The Title Of News</h5>
+                        <h5 class="dataTitile2">20</h5>
+                        <h5 class="dataTitile3">2022-02-10</h5>
+                    </li>
+                    <li class="listItem bg1">
+                        <h5 class="dataTitile1">The Title Of News</h5>
+                        <h5 class="dataTitile2">200</h5>
+                        <h5 class="dataTitile3">2022-02-10</h5>
+                    </li>
+                </ul>
+                <div>
+                    <div class="leftCorner">
+
+                    </div>
+                    <div class="rightCorner">
+
+                    </div>
+                </div>
+            </div>
+            <div class="dataZone1">
+                <div class="subTitle">
+                    Title Of Chart3
+                </div>
+                <div class="chart3Div" id="chart3">
+                    
+                </div>
+                <div>
+                    <div class="leftCorner">
+
+                    </div>
+                    <div class="rightCorner">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+
+        var geoCoordMap = {
+            '东城区':[116.418757,39.917544],
+            '西城区':[116.366794,39.915309],
+            '朝阳区':[116.486409,39.921489],
+            '丰台区':[116.286968,39.863642],
+            '石景山区':[116.195445,39.914601],
+            '海淀区':[116.310316,39.956074],
+            '门头沟区':[116.105381,39.937183],
+            '房山区':[116.139157,39.735535],
+            '通州区':[116.658603,39.902486],
+            '顺义区':[116.653525,40.128936],
+            '昌平区':[116.235906,40.218085],
+            '大兴区':[116.338033,39.728908],
+            '怀柔区':[116.637122,40.324272],
+            '平谷区':[117.112335,40.144783],
+            '密云区':[116.843352,40.377362],
+            '延庆区':[115.985006,40.465325]
+        };      
+        
+        var geoGpsMap = {
+            '1': [115.985006,40.465325],//延庆区
+            '2': [116.418757,39.917544],//东城区
+            '3': [116.658603,39.902486],//通州区
+            '4': [116.235906,40.218085],//昌平区
+            '5': [116.843352,40.377362],//密云区
+            '6': [116.310316,39.956074],//海淀区
+        };        
+
+        var convertData = function (data) {
+            var res = [];
+            for (var i = 0; i < data.length; i++) {
+                var geoCoord = geoCoordMap[data[i].name];
+                if (geoCoord) {
+                    res.push({
+                        name: data[i].name,
+                        value: geoCoord.concat(data[i].value)
+                    });
+                }
+            }
+            return res;
+        };
+
+       var numData=[
+                        { name: '东城区', value: 5881.84 },    
+                        { name: '西城区', value: 4918.26 }, 
+                        { name: '朝阳区', value: 5524.26 }, 
+                        { name: '丰台区', value: 5881.84 },  
+                        { name: '石景山区', value: 2190.9 },  
+                        { name: '海淀区', value: 4518.97 }, 
+                        { name: '门头沟区', value: 3765.78 },
+                        { name: '房山区', value: 2227.92 },
+                        { name: '通州区', value: 4178.01 },
+                        { name: '顺义区', value: 4404.49 },
+                        { name: '昌平区', value: 6992.6 },
+                        { name: '大兴区', value: 2180.98 },
+                        { name: '怀柔区', value: 1547.48 },
+                        { name: '平谷区', value: 40689.64 },
+                        { name: '密云区', value: 31686.1 },
+                        { name: '延庆区', value: 2007.34 },
+                    ];
+
+        const geoCoordLineMap = {
+            西城区: [116.366794,39.915309],
+            东城区: [116.418757,39.917544],
+        };
+ 
+        var data={
+            西城区: Math.round(Math.random()*1000),
+            东城区: Math.round(Math.random()*1000),
+        }
+ 
+        // 保存引导线末端的坐标
+        var linesEndCoords={
+            西城区:[geoCoordLineMap['西城区'][0]+1,geoCoordLineMap['西城区'][1]],
+            东城区:[geoCoordLineMap['东城区'][0]+1,geoCoordLineMap['东城区'][1]-0.1],
+        }
+        // lines引导线数据和坐标
+        function dataLines(province,data){
+            var res=[];
+            province.forEach(name=>{
+                res.push({
+                    name:name,
+                    value:data[name],
+                    coords:[
+                    geoCoordLineMap[name],
+                        linesEndCoords[name]
+                    ],
+                })
+            })
+            return res;
+        }
+
+        function randomNum(minNum, maxNum) {
+            switch (arguments.length) {
+                case 1:
+                    return parseInt(Math.random() * minNum + 1, 10);
+                    break;
+                case 2:
+                    return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+                    break;
+                default:
+                    return 0;
+                    break;
+            }
+        }        
+
+        var mapData = [
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ];
+        
+        mapData[0].push({
+            "name": '延庆区'
+        });
+
+        var convertToLineData = function(data, gps) {
+            var res = [];
+            for (var i = 0; i < data.length; i++) {
+                var dataItem = data[i];
+                var fromCoord = geoCoordMap[dataItem.name];
+                var toCoord = gps;
+                //  var toCoord = geoGps[Math.random()*3]; 
+                if (fromCoord && toCoord) {
+                    res.push([{
+                        coord: fromCoord,
+                    }, {
+                        coord: toCoord,
+                    }]);
+                }
+            }
+            return res;
+        }; 
+
+        $.getJSON('./data/city.json', function(geoJson) {
+            echarts.registerMap('city', {geoJSON: geoJson});
+            var myChart = echarts.init(document.getElementById('main'), 'dark');
+            // 指定图表的配置项和数据
+            var option = {
+                geo: [{
+                    map: 'city',
+                    roam: true,//平移或缩放
+                    zoom: 1.2,
+                    label: {
+                        normal: {
+                            show: true,
+                            color: 'rgba(255, 255, 255, 0.5)',
+                            formatter: function (params) {
+                                return params.name =='西城区'||params.name =='东城区'?'':params.name;
+                            }
+                        },
+                        emphasis: {
+                            color: '#fff'
+                        }
+                    },
+                    itemStyle: {
+                        normal: {
+                            areaColor: '#111a42',
+                            borderWidth: 2,
+                            borderColor: '#293676'
+                        },
+                        emphasis: {
+                            show: true,
+                            areaColor: '#070e2a',
+                            label: {
+                                show: true,
+                                textStyle: {
+                                    color: '#fff'
+                                }
+                            }
+                        }
+                        
+                    },
+                    regions: [
+                        {
+                            name: "通州区",
+                            itemStyle: {
+                                normal: {
+                                    opacity: 0.8, // 透明度
+                                    borderColor: "#293676", // 省份界线颜色
+                                    borderWidth: 2, // 省份界线的宽度
+                                    areaColor: '#293676', // 整个省份的颜色
+                                },
+                            },
+                        }
+                    ] //对不同的区块进行着色
+                }],
+                backgroundColor:'',
+                // 全局调色盘。
+                color: [
+                    '#c23531',
+                    '#2f4554',
+                    '#61a0a8',
+                    '#d48265',
+                    '#91c7ae',
+                    '#749f83',
+                    '#ca8622',
+                    '#bda29a',
+                    '#6e7074',
+                    '#546570',
+                    '#c4ccd3'
+                ],
+                title: {
+                    text: ''
+                },
+                tooltip: {},
+                legend: {
+                    data: ['']
+                },
+                // visualMap: {
+                //     min: 0,
+                //     max: 2500,
+                //     left: 'left',
+                //     top: 'bottom',
+                //     text: ['高','低'],
+                //     calculable: true
+                // },
+                xAxis: {
+                    show:false,
+                },
+                yAxis: {
+                    show:false,
+                },
+                series: [
+                {
+                    name: 'pm2.5',
+                    type: 'scatter',
+                    coordinateSystem: 'geo',
+                    data: convertData(numData),
+                    symbolSize: 5,
+                    // symbolSize: function (val) {
+                    //     return val[2] / 1000;
+                    // },
+                    label: {
+                        normal: {
+                            formatter: '{b}',
+                            position: 'right',
+                            show: false
+                        },
+                        emphasis: {
+                            show: true
+                        }
+                    },
+                    itemStyle: {
+                        normal: {
+                            color: '#ddb926'
+                        }
+                    }
+                },
+                // {
+                //     name: '人口密度',
+                //     type: 'map',
+                //     map: 'city',
+                //     showLegendSymbol:false,
+                //     roam: true,//平移或缩放
+                //     zoom: 1.2,
+                //     symbol: "http://498.bjsaiya.cn/img/logo.259f6506.png",
+                //     symbolSize: 10,
+                //     animation:true,
+                //     animationDelay: function(idx) {
+                //         // 越往后的数据延迟越大
+                //         return idx * 1000;
+                //     },
+                //     label: {
+                //         normal: {
+                //             show: true,
+                //             color: 'rgba(255, 255, 255, 0.5)',
+                //             formatter: [
+                //                 '{a|{b}\n}',
+                //                 '{d|▼}'
+                //             ].join('\n'),
+                //             rich: {
+                //                 a: {
+                //                     'margin': '20 auto',
+                //                     'width': '0',
+                //                     'height': '0',
+                //                     'border': '50 solid #eb2742',
+                //                     'border-bottom': 'none',
+                //                     'border-left-color': 'transparent',       
+                //                     'border-right-color': 'transparent',
+                //                     lineHeight: 0,
+                //                 },
+                //                 b:{
+                //                     backgroundColor:{
+                //                         image: 'image/sanjiao.png'
+                //                     },
+                //                     height: 16,
+                //                     lineHeight: 0,
+                //                     fontSize: 16,
+                //                 },
+                //                 c:{
+                //                     color: '#eb2742',
+                //                     lineHeight: 0,
+                //                     fontSize: 10,
+                //                 },
+                //             },                            
+                //         },
+                //         emphasis: {
+                //             color: '#fff'
+                //         }
+                //     },
+                //     itemStyle: {
+                //         areaColor: '#226DA4',
+                //         borderWidth: 2,
+                //         borderColor: 'rgba(255, 255, 255, 0.5)'
+                //     },
+                //     regions: [
+                //         {
+                //             name: "通州区",
+                //             itemStyle: {
+                //                 normal: {
+                //                     opacity: 0.8, // 透明度
+                //                     borderColor: "#fff", // 省份界线颜色
+                //                     borderWidth: 2, // 省份界线的宽度
+                //                     areaColor: '#0595ff', // 整个省份的颜色
+                //                 },
+                //             },
+                //         }
+                //     ], //对不同的区块进行着色
+                //     data: [
+                //         { name: '延庆区', value: 20057.34 },
+                //         { name: '怀柔区', value: 15477.48 },
+                //         { name: '密云区', value: 31686.1 },
+                //         { name: '昌平区', value: 6992.6 },
+                //         { name: '顺义区', value: 44045.49 },
+                //         { name: '平谷区', value: 40689.64 },
+                //         { name: '门头沟区', value: 37659.78 },
+                //         { name: '海淀区', value: 45180.97 },
+                //         { name: '朝阳区', value: 55204.26 },
+                //         { name: '石景山区', value: 21900.9 },
+                //         { name: '西城区', value: 4918.26 },
+                //         { name: '东城区', value: 5881.84 },
+                //         { name: '丰台区', value: 5881.84 },
+                //         { name: '通州区', value: 4178.01 },
+                //         { name: '房山区', value: 2227.92 },
+                //         { name: '大兴区', value: 2180.98 },
+                //     ],
+                // }, 
+                {
+                    name: 'Top 2',
+                    type: 'effectScatter',
+                    coordinateSystem: 'geo',
+                    data: convertData(numData.sort(function (a, b) {
+                        return b.value - a.value;
+                    }).slice(0, 3)),
+                    symbolSize: function (val) {
+                        return val[2] / 1000;
+                    },
+                    showEffectOn: 'render',//emphasis
+                    rippleEffect: {
+                        brushType: 'fill',//stroke
+                        scale: 2,
+                        period: 3,
+                    },
+                    hoverAnimation: true,
+                    label: {
+                        normal: {
+                            formatter: '{b}',
+                            position: 'right',
+                            show: false
+                        }
+                    },
+                    itemStyle: {
+                        normal: {
+                            // color: '#344599',
+                            color: 'rgba(47,63,139,0.5)',
+                            shadowBlur: 10,
+                            shadowColor: '#333'
+                        }
+                    },
+                    zlevel: 1
+                },
+                { // 含引导线的省份，用lines实现
+                    type: 'lines',
+                    symbol:'circle',
+                    symbolSize:[6,4],
+                    label:{
+                        show:true,
+                        formatter:' {b}',
+                        color: '#ffffff',
+                    },
+                    lineStyle:{
+                        type:'stroke',//dotted
+                        width:1,
+                        shadowBlur:3,
+                        color:'#ffffff',
+                    },
+                    data:dataLines(['西城区','东城区'],data),
+                },
+                //地图线的动画效果
+                {
+                    type: 'lines',
+                    zlevel: 2,
+                    effect: {
+                        show: true,
+                        period: 4, //箭头指向速度，值越小速度越快
+                        trailLength: 0.02, //特效尾迹长度[0,1]值越大，尾迹越长重
+                        symbol: 'arrow', //箭头图标，circle, rect, roundRect, triangle, diamond, pin, arrow
+                        symbolSize: 3, //图标大小
+                    },
+                    lineStyle: {
+                        normal: {
+                            color: '#ddb926',
+                            width: 0.1, //尾迹线条宽度
+                            opacity: 0.5, //尾迹线条透明度
+                            curveness: .3 //尾迹线条曲直度
+                        }
+                    },
+                    data: convertToLineData(mapData[0], geoGpsMap[Math.ceil(Math.random() * 6)])
+                },                
+                ],
+            };
+
+            // 使用刚指定的配置项和数据显示图表。
+            myChart.setOption(option);
+            window.onresize = function () {
+                myChart.resize();
+            };
+
+        });
+
+        $.get('./data/city.json', function (geoJson) {
+
+            // console.log(geoJson);  
+
+        });
+    
+        // 基于准备好的dom，初始化echarts实例
+        var myChart2 = echarts.init(document.getElementById('chart2'), 'dark');
+
+        // 指定图表的配置项和数据
+        var option2 = {
+            // 全局调色盘。
+            color: ["#611cff","#e24244"],
+            title: {
+                text: ''
+            },
+            tooltip: {},
+            legend: {
+                orient: 'horizontal',
+                right: 10,
+                top:10,
+                data:['图例1','图例2'],
+                icon: "rect",
+                itemWidth: 16,  // 设置宽度
+                itemHeight: 16, // 设置高度
+                itemGap: 20, // 设置间距
+                textStyle: {
+                    //文字样式
+                    color: "#5565b4",
+                    fontSize: "18"
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '10%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'category',
+                data: ['4日', '5日', '6日','7日', '8日', '9日','10日'],
+                splitLine:{show: false},
+                axisLine: {
+                    show: false
+                },
+                axisTick: {
+                    alignWithLabel: true
+                },
+                axisLabel : {
+                            formatter: '{value}',
+                            textStyle: { //改变刻度字体样式
+                                color: '#393f5c'
+                            },
+                        },
+                splitArea : {show : false},//保留网格区域,
+                boundaryGap: false //坐标轴两边留白
+            },
+            yAxis: {
+                type: 'value',
+                splitLine:{show: true},
+                axisLabel : {
+                            formatter: '{value}',
+                            textStyle: { //改变刻度字体样式
+                                color: '#393f5c'
+                            }
+                        },
+                splitArea : {show : false},//保留网格区域                    
+            },
+            series: [
+                {
+                    data: [12, 20, 15,0,0,0,0],
+                    type: 'line',
+                    smooth:true,
+                    name: '图例1',
+                    areaStyle:{
+                        color:new echarts.graphic.LinearGradient(0, 0, 0, 1,[{
+                            offset: 0, color: '#611cff' // 0% 处的颜色
+                            }, {
+                                offset: 0.2, color: '#611cff' // 100% 处的颜色
+                            }, {
+                                offset: 1, color: '#00000000' // 100% 处的颜色
+                            }]
+                        ), //背景渐变色
+                    },
+                    z:1,
+                },
+                {
+                    data: [6, 27, 18,0,0,0,0],
+                    type: 'line',
+                    smooth:true,
+                    name: '图例2',
+                    z:0,
+                    areaStyle:{
+                        color:new echarts.graphic.LinearGradient(0, 0, 0, 1,[{
+                            offset: 0, color: '#e24244' // 0% 处的颜色
+                            }, {
+                                offset: 0.2, color: '#e24244' // 100% 处的颜色
+                            }, {
+                                offset: 1, color: '#00000000' // 100% 处的颜色
+                            }]
+                        ), //背景渐变色
+                    }
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart2.setOption(option2);
+        window.onresize = function () {
+            myChart2.resize();
+        };
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart22 = echarts.init(document.getElementById('chart22'), 'dark');
+
+        // 指定图表的配置项和数据
+        var option22 = {
+            // 全局调色盘。
+            color: ["#3bfdca","#4994cf"],
+            title: {
+                text: ''
+            },
+            // backgroundColor:'', //设置无背景色
+            tooltip: {},
+            legend: {
+                orient: 'horizontal',
+                // x:'center',
+                right:10,
+                top:10,
+                data:['图例3','图例4'],
+                icon: "rect",
+                itemWidth: 16,  // 设置宽度
+                itemHeight: 16, // 设置高度
+                itemGap: 20, // 设置间距
+                textStyle: {
+                    //文字样式
+                    color: "#5565b4",
+                    fontSize: "18"
+                }
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '10%',
+                containLabel: true
+            },
+            xAxis: {
+                type: 'category',
+                data: ['4日', '5日', '6日','7日', '8日', '9日','10日'],
+                splitLine:{show: false},
+                axisLine: {
+                    show: false
+                },
+                axisLabel : {
+                            formatter: '{value}',
+                            textStyle: { //改变刻度字体样式
+                                color: '#393f5c'
+                            },
+                        },
+                splitArea : {show : false},//保留网格区域,
+                boundaryGap: false, //坐标轴两边留白
+                axisTick: {
+                    alignWithLabel: true
+                },
+            },
+            yAxis: {
+                type: 'value',
+                splitLine:{show: true},
+                axisLabel : {
+                            formatter: '{value}',
+                            textStyle: { //改变刻度字体样式
+                                color: '#393f5c'
+                            }
+                        },
+                splitArea : {show : false},//保留网格区域                    
+            },
+            series: [
+                {
+                    data: [2, 12, 5,0,0,0,0],
+                    type: 'line',
+                    smooth:true,
+                    name: '图例3',
+                    areaStyle:{
+                        color:new echarts.graphic.LinearGradient(0, 0, 0, 1,[{
+                            offset: 0, color: '#3bfdca' // 0% 处的颜色
+                            }, {
+                                offset: 0.2, color: '#3bfdca' // 100% 处的颜色
+                            }, {
+                                offset: 1, color: '#00000000' // 100% 处的颜色
+                            }]
+                        ), //背景渐变色
+                    },
+                    z:1,
+                },
+                {
+                    data: [6, 7, 8,0,0,0,0],
+                    type: 'line',
+                    smooth:true,
+                    name: '图例4',
+                    z:0,
+                    areaStyle:{
+                        color:new echarts.graphic.LinearGradient(0, 0, 0, 1,[{
+                            offset: 0, color: '#4994cf' // 0% 处的颜色
+                            }, {
+                                offset: 0.2, color: '#4994cf' // 100% 处的颜色
+                            }, {
+                                offset: 1, color: '#00000000' // 100% 处的颜色
+                            }]
+                        ), //背景渐变色
+                    }
+                }
+            ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart22.setOption(option22);
+        window.onresize = function () {
+            myChart22.resize();
+        };        
+
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart3 = echarts.init(document.getElementById('chart3'), 'dark');
+
+        // 指定图表的配置项和数据
+        var option3 = {
+            // 全局调色盘。
+            color: [
+                '#c23531',
+                '#2f4554',
+                '#61a0a8',
+                '#d48265',
+                '#91c7ae',
+                '#749f83',
+                '#ca8622',
+                '#bda29a',
+                '#6e7074',
+                '#546570',
+                '#c4ccd3'
+            ],
+            title: {
+                
+            },
+            grid: {
+                left: '5%',
+                right: '8%',
+                bottom: '1%',
+                containLabel: true
+            },
+            tooltip: {},
+            legend: {
+                orient: 'horizontal',
+                right: 10,
+                top:10
+            },
+            xAxis: {
+                type: 'value',
+                axisLine: {
+                    show: false
+                },
+                axisTick: {
+                    show: false
+                },
+                splitLine: {show: false},
+                axisLabel: {show: false},
+            },
+            yAxis: {
+                type: 'category',
+                data: ['本月', '本周','当日'],
+                splitLine: {show: false},
+                axisTick: 'none',
+                axisLine: 'none',
+                
+            },
+            series: [{
+                name: '已处理',
+                type: 'bar',
+                // stack: 'y',
+                data: [5, 20, 36],
+                barWidth: 13,
+                // 此系列自己的调色盘。
+                color: [
+                    '#dd6b66',
+                    '#759aa0',
+                    '#e69d87',
+                    '#8dc1a9',
+                    '#ea7e53',
+                    '#eedd78',
+                    '#73a373',
+                    '#73b9bc',
+                    '#7289ab',
+                    '#91ca8c',
+                    '#f49f42'
+                ],
+                // 普通样式。
+                itemStyle: {
+                    // 点的颜色。
+                    color: '#dd6b66',
+                    emphasis: {
+                        barBorderRadius: 7
+                    },
+                    normal: {
+                        barBorderRadius: 7,
+                        color: '#eb2742',
+                    }
+                },
+                z:1,
+                label: {
+                    normal: {
+                        formatter: [
+                            '{a|36\n}',
+                            '{c|▼}'
+                        ].join('\n'),
+                        rich: {
+                            a: {
+                                'margin': '20 auto',
+                                'width': '0',
+                                'height': '0',
+                                'border': '50 solid #eb2742',
+                                'border-bottom': 'none',
+                                'border-left-color': 'transparent',       
+                                'border-right-color': 'transparent',
+                                lineHeight: 0,
+                                fontSize: 16,
+                            },
+                            b:{
+                                backgroundColor:{
+                                    image: 'image/sanjiao.png'
+                                },
+                                height: 16,
+                                lineHeight: 0,
+                                fontSize: 16,
+                            },
+                            c:{
+                                color: '#eb2742',
+                                lineHeight: 0,
+                                fontSize: 10,
+                            },
+                        },
+                        align: 'middle',
+                        // 修改 position 和 distance 的值试试
+                        // 支持：'left', 'right', 'top', 'bottom', 'inside', 'insideTop', 'insideLeft', 'insideRight', 'insideBottom', 'insideTopLeft', 'insideTopRight', 'insideBottomLeft', 'insideBottomRight'
+                        position: 'right',//标签的位置
+                        offset: [-20, -20],
+                        // distance: -6,
+                        show: true,
+                        padding: 2,
+                        fontSize: 18,
+                        color: '#eb2742',
+                    }
+                },
+            },
+            {
+                name: '总数据',
+                type: 'bar',
+                // stack: 'y',
+                barGap: '-100%',
+                barWidth: 13,
+                data: [15, 26, 39],
+                z:0,
+                // 此系列自己的调色盘。
+                color: [
+                    '#dd6b66',
+                    '#759aa0',
+                    '#e69d87',
+                    '#8dc1a9',
+                    '#ea7e53',
+                    '#eedd78',
+                    '#73a373',
+                    '#73b9bc',
+                    '#7289ab',
+                    '#91ca8c',
+                    '#f49f42'
+                ],
+                // 普通样式。
+                itemStyle: {
+                    // 点的颜色。
+                    color: '#dd6b66',
+                    emphasis: {
+                        barBorderRadius: 7
+                    },
+                    normal: {
+                        barBorderRadius: 7,
+                        color: '#007aff',
+                    }
+                },
+                label: {
+                    normal: {
+                        // 修改 position 和 distance 的值试试
+                        // 支持：'left', 'right', 'top', 'bottom', 'inside', 'insideTop', 'insideLeft', 'insideRight', 'insideBottom', 'insideTopLeft', 'insideTopRight', 'insideBottomLeft', 'insideBottomRight'
+                        position: 'right',
+                        distance: 0,
+
+                        show: true,
+                        padding: 10,
+                        fontSize: 18,
+                        color: '#51b3ff'
+                    }
+                },
+            }
+        ]
+        };
+
+        // 使用刚指定的配置项和数据显示图表。
+        myChart3.setOption(option3);
+        window.onresize = function () {
+            myChart3.resize();
+        };
+
+    </script>
+</body>
+
+</html>

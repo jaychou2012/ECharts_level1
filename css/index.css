@@ -1,0 +1,321 @@
+body {
+    background-color: #081033;
+    background-image: url('http://498.bjsaiya.cn/img/background.0b3744f3.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+input,
+select,
+button,
+textarea {
+    font-size: 100%;
+    font-family: inherit;
+    outline: none;
+}
+ul,
+ol {
+    list-style: none;
+}
+img {
+    border: 0;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    background-image: url('http://498.bjsaiya.cn/img/header.8e3357b4.png');
+}
+
+.subTitle {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(90deg, #1c2860, #0d163f);
+    padding: 10px;
+}
+
+.dataDiv {
+    display: flex;
+    flex-direction: row;
+}
+
+.dataItemDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    background-color: #23306b;
+    border-radius: 12px;
+}
+
+.dataItemDiv h2 {
+    color: #30a679;
+}
+
+.dataItemDiv h3 {
+    text-align: center;
+}
+
+.dataZone1 {
+    width: 100%;
+    border: 1px solid #1c2d6b;
+    margin-bottom: 23px;
+    position: relative;
+    background-color: #0c153d;
+}
+
+.leftCorner {
+    position: absolute;
+    bottom: -2px;
+    width: 30px;
+    border-bottom: 2px solid #00a2ff;
+    height: 30px;
+    z-index: 200;
+    left: -1px;
+    border-left: 2px solid #00a2ff;
+}
+
+.rightCorner {
+    right: -1px;
+    border-right: 2px solid #00a2ff;
+    position: absolute;
+    bottom: -2px;
+    width: 30px;
+    border-bottom: 2px solid #00a2ff;
+    height: 30px;
+    z-index: 200;
+}
+
+.bodyData {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.zoneLeft {
+    width: 26%;
+    margin: 10px;
+}
+
+.zoneCenter {
+    width: 48%;
+    margin: 10px;
+}
+
+.zoneRight {
+    width: 26%;
+    margin: 10px;
+}
+
+.chartDiv {
+    width: 100%;
+    height: 560px;
+}
+
+.dataZone2 {
+    width: 100%;
+    border: 1px solid #1c2d6b;
+    margin-bottom: 23px;
+    position: relative;
+    background-color: #0c153d;
+}
+
+.dataTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dataTitle h5 {
+    padding: 5px;
+    font-size: 18px;
+    color: #5f70c2;
+    width: 100%;
+    text-align: center;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+    margin-bottom: 1px;
+}
+
+.listItem h5 {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    color: #b7bddd;
+    text-align: center;
+}
+
+.bg1 {
+    background-color: #151e4d;
+}
+
+.bg2 {
+    background-color: #0c153d;
+}
+
+.activeBg1 {
+    background-image: linear-gradient(90deg, #9c3077, transparent, transparent);
+}
+
+.activeBg2 {
+    background-image: linear-gradient(90deg, #9c3077, transparent, transparent)
+}
+
+.activeBg3 {
+    background-image: linear-gradient(90deg, #7733a5, transparent, transparent)
+}
+
+.dataTitile1{
+    flex: 3;
+}
+
+.dataTitile2{
+    flex: 1;
+}
+
+.dataTitile3{
+    flex: 2;
+}
+
+.chart2Div{
+    width: 100%;
+    height: 220px;
+}
+
+.chart22Div{
+    width: 100%;
+    height: 220px;
+}
+
+.chart3Div{
+    width: 100%;
+    height: 220px;
+}
+
+.tri {
+    margin: 20px auto;
+    /*内容宽高均为0*/
+    width: 0px;
+    height: 0px;
+    border: 8px solid #eb2742;
+    /*下边框设为none*/
+    border-bottom: none;
+    /*左右设为透明色*/
+    border-left-color: transparent;        
+    border-right-color: transparent;	
+}
+
+.zoneCenterDiv{
+    position: relative;
+}
+
+.logo{
+    right: 10px;
+    bottom: 20px;
+    width: 73px;
+    position: absolute;
+}
+
+div.inner {
+	width: 50px;
+	height: 50px;
+	background: #344599;
+	border-radius: 50%;
+	position: fixed;
+	left: 50%;
+	margin-left: -45px;
+	margin-top: 152px;
+	z-index: 10;
+	animation-duration: 2.4s;
+	z-index: 10;
+	-webkit-animation-name: state1;
+	animation-name: state1;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+@keyframes state1 {
+	0% {
+		opacity: .5;
+		-webkit-transform: scale(0.8);
+		transform: scale(0.8);
+	}
+
+	100% {
+		opacity: 0;
+		-webkit-transform: scale(2.6);
+		transform: scale(2.6);
+	}
+}
+
+.avatar {
+	position: fixed;
+	left: 50%;
+	margin-left: -28px;
+	margin-top: 172px;
+	border-radius: 50%;
+	width: 36px;
+	height: 56px;
+	background-color: #00000000;
+	z-index: 11;
+}
+
+.container {
+	animation-delay: .8s;
+}
+
+.outter {
+	animation-delay: 1.5s;
+}
